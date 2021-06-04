@@ -72,6 +72,7 @@ public class MysqlTest {
 
     @Test
     public void findPage(){
+        System.out.println("test...");
         //springboot2.2.1（含）以上的版本已经不能再实例化了，构造方法已经是私有的了！
         //Pageable pageable = new PageRequest(0,10,new Sort(Sort.Direction.ASC,"id"));
         Pageable pageable = PageRequest.of(0,10,Sort.by(Sort.Direction.ASC,"id"));
