@@ -1,0 +1,5 @@
+com\demo\test\bean\Role.class
+com\demo\test\bean\Deparment.class
+com\demo\test\dao\UserRepository.class
+com\demo\test\bean\User.class
+com\demo\test\util\JpaConfiguration.class
